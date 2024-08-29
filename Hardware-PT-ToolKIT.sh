@@ -24,6 +24,7 @@ sudo apt-get upgrade -y
 echo "Packages upgraded."  
 #Installing lolcat.....
 sudo apt install lolcat
+
 # Function to check if a package is installed
 check_install() {
     if dpkg -l | grep -q "$1"; then
@@ -60,4 +61,4 @@ if [ "$USER" != "root" ]; then
     echo "sudo usermod -aG wireshark $USER"
 fi
 
-echo "Happy Hacking and fuck the Hardware." | lolcat
+echo "Happy Hacking and fuck the Hardware."
