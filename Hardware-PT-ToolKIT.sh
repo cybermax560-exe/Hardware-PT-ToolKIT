@@ -14,22 +14,23 @@ print_banner() {
 print_banner
 
 # Update package list
-echo "Updating package list..." 
+echo "Updating package list..."  
 sudo apt-get update
-echo "Package list updated." 
+echo "Package list updated."     
 
 # Upgrade packages
-echo "Upgrading packages..." 
+echo "Upgrading packages..."     
 sudo apt-get upgrade -y
-echo "Packages upgraded." 
-
+echo "Packages upgraded."  
+#Installing lolcat.....
+sudo apt install lolcat
 # Function to check if a package is installed
 check_install() {
     if dpkg -l | grep -q "$1"; then
-        echo "$1 is already installed." 
+        echo "$1 is already installed." |lolcat
     else
         echo "$1 is not installed."
-        echo "Installing $1..."
+        echo "Installing $1..."          |lolcat
         sudo apt-get install -y "$1"
     fi
 }
@@ -37,7 +38,7 @@ check_install() {
 # Install basic tools if not installed
 basic_tools=(git pip curl wget openjdk-17-jdk p7zip-full zip lolcat)
 
-echo "Checking and installing basic tools..." 
+echo "Checking and installing basic tools..."  |lolcat
 for tool in "${basic_tools[@]}"; do
     check_install "$tool"
 done
@@ -45,7 +46,7 @@ done
 # Install main tools
 main_tools=(flashrom minicom picocom sigrok pulseview binwalk wireshark nmap esptool)
 
-echo "Checking and installing main tools..." 
+echo "Checking and installing main tools..."  | lolcat 
 for tool in "${main_tools[@]}"; do
     check_install "$tool"
 done
