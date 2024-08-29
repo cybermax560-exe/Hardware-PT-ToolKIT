@@ -14,19 +14,19 @@ print_banner() {
 print_banner
 
 # Update package list
-echo "Updating package list..." | lolcat
+echo "Updating package list..." 
 sudo apt-get update
-echo "Package list updated." | lolcat
+echo "Package list updated." 
 
 # Upgrade packages
-echo "Upgrading packages..." | lolcat
+echo "Upgrading packages..." 
 sudo apt-get upgrade -y
-echo "Packages upgraded." | lolcat
+echo "Packages upgraded." 
 
 # Function to check if a package is installed
 check_install() {
     if dpkg -l | grep -q "$1"; then
-        echo "$1 is already installed." | lolcat
+        echo "$1 is already installed." 
     else
         echo "$1 is not installed."
         echo "Installing $1..."
