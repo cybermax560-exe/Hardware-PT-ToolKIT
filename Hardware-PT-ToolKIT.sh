@@ -69,4 +69,4 @@ if [ "$USER" != "root" ]; then
     echo "sudo usermod -aG wireshark $USER"
 fi
 
-echo "Happy Hacking and enjoy the journey!" | lolcat
+echo "Happy Hacking And Fuck The Hardware!" | lolcat
