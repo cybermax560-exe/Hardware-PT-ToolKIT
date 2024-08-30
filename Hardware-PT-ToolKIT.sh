@@ -5,7 +5,7 @@ print_banner() {
     echo -e "\e[32m#######################################\e[0m" 
     echo -e "\e[32m#                                     #\e[0m"
     echo -e "\e[32m#         Hardware-PT Toolkit         #\e[0m"
-    echo -e "\e[32m#         Created by Cybermax         #\e[0m"
+    echo -e "\e[32m#       Created by Cybermax560        #\e[0m"
     echo -e "\e[32m#                                     #\e[0m"
     echo -e "\e[32m#######################################\e[0m"
 }
