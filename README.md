@@ -35,7 +35,7 @@ Checks for the installation of required packages and installs them if missing.
 
 #Clone the repository:
 
-         Git clone https://github.com/cybermax560-exe/Hardware-PT-ToolKIT.git
+         git clone https://github.com/cybermax560-exe/Hardware-PT-ToolKIT.git
 
          cd Hardware-PT-ToolKIT
 
