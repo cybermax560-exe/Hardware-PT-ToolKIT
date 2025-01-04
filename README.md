@@ -11,16 +11,6 @@ This script simplifies the setup process for hardware hacking by automatically i
 
 ## Tools Included
 
-### Requirements
-1. **git** – A distributed version control system to manage and track code versions.
-2. **python3-pip** – Python package installer used to install additional Python libraries.
-3. **curl** – A command-line tool for transferring data with URLs (for network requests).
-4. **wget** – A network downloader used for fetching files from the web.
-5. **openjdk-17-jdk** – OpenJDK 17 (Java Development Kit), a platform for running and developing Java applications.
-6. **p7zip-full** – A file archiver with high compression ratios.
-7. **zip** – A tool to package and compress files into the `.zip` format.
-8. **i2c-tools** – Utilities for interacting with devices over I2C (Inter-Integrated Circuit) bus.
-
 ### Main Tools
 1. **flashrom** – A utility for reading, writing, verifying, and erasing flash chips.
 2. **minicom** – A text-based modem control and terminal emulation program.
@@ -36,6 +26,8 @@ This script simplifies the setup process for hardware hacking by automatically i
 12. **ettercap-graphical** – A GUI for Ettercap, used for network sniffing and attacks.
 13. **john** – A password cracking tool that can be used for testing password strength.
 14. **hashcat** – A powerful password cracking tool, supporting multiple hash algorithms.
+15. **i2c-tools** – Utilities for interacting with devices over I2C (Inter-Integrated Circuit) bus.
+
 
 
 
