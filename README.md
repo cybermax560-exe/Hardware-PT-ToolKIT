@@ -11,7 +11,7 @@ This script simplifies the setup process for hardware hacking by automatically i
 
 ## Tools Included
 
-### Basic Tools
+### Requirements
 1. **git** – A distributed version control system to manage and track code versions.
 2. **python3-pip** – Python package installer used to install additional Python libraries.
 3. **curl** – A command-line tool for transferring data with URLs (for network requests).
