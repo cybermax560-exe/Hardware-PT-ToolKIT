@@ -1,4 +1,4 @@
-  ![](https://github.com/cybermax560-exe/Hardware-PT-ToolKIT/blob/main/logo.png)
+  ![](https://github.com/cybermax560-exe/Hardware-PT-ToolKIT/blob/main/logo1.png)
 
 # Hardware-PT-ToolKIT
 #Hardware-PT Toolkit A Bash script to automate the installation of essential hardware hacking tools on Kali Linux and Ubuntu.
